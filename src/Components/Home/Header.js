@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import img from "../../Images/ProfilePic.JPG";
+import About from "../About";
 import HomeName from "./HomeName";
 
 const Header = () => {
@@ -9,19 +10,9 @@ const Header = () => {
       <li>
         <Link to={<HomeName></HomeName>}>Home</Link>
       </li>
-      {/* 
       <li>
-        <Link>About </Link>
+        <Link to={<About></About>}>About </Link>
       </li>
-      <li>
-        <Link>Services </Link>
-      </li>
-      <li>
-        <Link>Projects </Link>
-      </li>
-      <li>
-        <Link>Contact Us </Link>
-      </li> */}
     </>
   );
   return (

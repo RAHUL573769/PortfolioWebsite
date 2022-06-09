@@ -1,10 +1,13 @@
 import React from "react";
-import Header from "./Header";
+import About from "../About";
+
+import HomeName from "./HomeName";
 
 const HomePage = () => {
   return (
     <div>
-      <Header></Header>
+      <HomeName></HomeName>
+      <About></About>
     </div>
   );
 };
