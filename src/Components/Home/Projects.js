@@ -16,7 +16,11 @@ const Projects = () => {
             <h2 class="card-title">Car Parts Inventory</h2>
             <p>My Car Parts Inventory Website</p>
             <div class="card-actions">
-              <button class="btn btn-primary">Buy Now</button>
+              <button class="btn btn-primary">
+                <a href="https://assignment12-4f047.web.app/">
+                  Click to See Live Site{" "}
+                </a>
+              </button>
             </div>
           </div>
         </div>
@@ -28,7 +32,11 @@ const Projects = () => {
             <h2 class="card-title">Laptop Store</h2>
             <p>My Laptop Website</p>
             <div class="card-actions">
-              <button class="btn btn-primary">Buy Now</button>
+              <button class="btn btn-primary">
+                <a href="https://assignment11-76d81.web.app/">
+                  Click To see Live Site
+                </a>
+              </button>
             </div>
           </div>
         </div>
@@ -40,7 +48,9 @@ const Projects = () => {
             <h2 class="card-title">Photo Graphic Website</h2>
             <p>My Photographic Website</p>
             <div class="card-actions">
-              <button class="btn btn-primary">Buy Now</button>
+              <button class="btn btn-primary">
+                <a href="https://assignment10-7fbf3.web.app/">Live Site</a>
+              </button>
             </div>
           </div>
         </div>
