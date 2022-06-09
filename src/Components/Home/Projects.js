@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div>
       <h1 class=" text-center my-4 text-5xl font-bold">My Projects</h1>
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-3 ">
         <div class="card w-96 bg-base-100 shadow-xl">
           <figure class="px-10 pt-10">
             <img src={carParts} alt="Shoes" class="rounded-xl" />
