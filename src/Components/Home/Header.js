@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import img from "../../Images/ProfilePic.JPG";
 import About from "../About";
 import HomeName from "./HomeName";
+import Projects from "./Projects";
 
 const Header = () => {
   const menuItems = (
@@ -12,6 +13,9 @@ const Header = () => {
       </li>
       <li>
         <Link to={<About></About>}>About </Link>
+      </li>
+      <li>
+        <Link to={<Projects></Projects>}>Projects </Link>
       </li>
     </>
   );
