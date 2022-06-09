@@ -6,6 +6,7 @@ import HomeName from "./Components/Home/HomeName";
 import About from "./Components/About";
 import Header from "./Components/Home/Header";
 import Projects from "./Components/Home/Projects";
+import ContactUs from "./Components/Home/ContactUs";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
 
         <Route path="/aboutme" element={<About></About>}></Route>
         <Route path="/projects" element={<Projects></Projects>}></Route>
+        <Route path="/contactus" element={<ContactUs></ContactUs>}></Route>
       </Routes>
     </div>
   );

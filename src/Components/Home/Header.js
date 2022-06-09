@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import img from "../../Images/ProfilePic.JPG";
 import About from "../About";
+import ContactUs from "./ContactUs";
 import HomeName from "./HomeName";
 import Projects from "./Projects";
 
@@ -16,6 +17,9 @@ const Header = () => {
       </li>
       <li>
         <Link to={<Projects></Projects>}>Projects </Link>
+      </li>
+      <li>
+        <Link to={<ContactUs></ContactUs>}>Contact Us </Link>
       </li>
     </>
   );

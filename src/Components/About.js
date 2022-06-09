@@ -8,11 +8,10 @@ const About = () => {
         <div class="hero-content flex-col lg:flex-row">
           <img src={image2} />
           <div>
-            <h1 class="text-5xl font-bold">Box Office News!</h1>
+            <h1 class="text-5xl font-bold">About Me</h1>
             <p class="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              I am a passionate web developer who wants to know about new
+              Technologies
             </p>
             <button class="btn btn-primary">Get Started</button>
           </div>
