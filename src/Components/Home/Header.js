@@ -1,16 +1,27 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import img from "../../Images/ProfilePic.JPG";
+import HomeName from "./HomeName";
 
 const Header = () => {
   const menuItems = (
     <>
       <li>
-        <a>Item 1</a>
+        <Link to={<HomeName></HomeName>}>Home</Link>
       </li>
-
+      {/* 
       <li>
-        <a>Item 3</a>
+        <Link>About </Link>
       </li>
+      <li>
+        <Link>Services </Link>
+      </li>
+      <li>
+        <Link>Projects </Link>
+      </li>
+      <li>
+        <Link>Contact Us </Link>
+      </li> */}
     </>
   );
   return (
@@ -41,7 +52,7 @@ const Header = () => {
               {menuItems}
             </ul>
           </div>
-          <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <a class="btn btn-ghost normal-case text-xl">Rahul's Portfolio</a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0">{menuItems}</ul>
