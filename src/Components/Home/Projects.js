@@ -10,7 +10,9 @@ const Projects = () => {
   const [projects, setProjects] = useState([]);
   const navigate = useNavigate();
 
-  const handleButton = (id) => {};
+  const handleButton = (id) => {
+    navigate("/projects");
+  };
   useEffect(() => {
     fetch("projects.json")
       .then((res) => res.json())
