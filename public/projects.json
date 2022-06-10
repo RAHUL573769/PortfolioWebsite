@@ -2,6 +2,7 @@
 
     {
         "id":1,
+        "image":"https://i.ibb.co/Jtqp3KS/carparts.jpg",
         "name":"Car Inventory",
         "Description":"This is Car Inventory Retail Store.We sell different car parts here",
         "Technologies Used":"Html,Css,Javascript,Express,React",
@@ -11,6 +12,7 @@
     },
     {
         "id":2,
+        "image":"https://i.ibb.co/GHnSr0Z/laptop.jpg",
         "name":"Laptop Store",
         "Description":"This is Laptop Store.We sell different Laptops here",
         "Technologies Used":"Html,Css,Javascript,Express,React",
@@ -20,6 +22,7 @@
     },
     {
         "id":3,
+        "image":"https://i.ibb.co/VLBmvRc/photography.jpg",
         "name":"Photography Store",
         "Description":"This is Photographic Store.We sell differentPhotographic services  here",
         "Technologies Used":"Html,Css,Javascript,Express,React",
