@@ -1,0 +1,30 @@
+[
+
+    {
+        "id":1,
+        "name":"Car Inventory",
+        "Description":"This is Car Inventory Retail Store.We sell different car parts here",
+        "Technologies Used":"Html,Css,Javascript,Express,React",
+        "Screenshot 1":"https://i.ibb.co/88T75sn/Inventory1.jpg",
+        "Screenshot 2":"https://i.ibb.co/zZX8xSw/Inventory2.jpg",
+        "Screenshot 3":"https://i.ibb.co/JpdcYrG/Inventory3.jpg"
+    },
+    {
+        "id":2,
+        "name":"Laptop Store",
+        "Description":"This is Laptop Store.We sell different Laptops here",
+        "Technologies Used":"Html,Css,Javascript,Express,React",
+        "Screenshot 1":"https://i.ibb.co/mXwXjxs/Laptop1.jpg",
+        "Screenshot 2":"https://i.ibb.co/MfLNHmB/Laptop2.jpg",
+        "Screenshot 3":"https://i.ibb.co/TMZggkP/Laptop3.jpg"
+    },
+    {
+        "id":3,
+        "name":"Photography Store",
+        "Description":"This is Photographic Store.We sell differentPhotographic services  here",
+        "Technologies Used":"Html,Css,Javascript,Express,React",
+        "Screenshot 1":"https://i.ibb.co/SrDh857/Photo1.jpg",
+        "Screenshot 2":"https://i.ibb.co/740SLHw/Photo2.jpg",
+        "Screenshot 3":"https://i.ibb.co/740SLHw/Photo2.jpg"
+    }
+]
