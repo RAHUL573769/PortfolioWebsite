@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import carParts from "../../Images/carparts.JPG";
 import laptop from "../../Images/laptop.JPG";
 import photo from "../../Images/photography.JPG";
 
 const Projects = () => {
-  const handleButton = () => {
-    console.log("button clicked");
-  };
-  const [projects, setProjects] = useState([]);
+  // const [navigate] = useNavigate();
 
+  const [projects, setProjects] = useState([]);
+  const navigate = useNavigate();
+
+  const handleButton = (id) => {};
   useEffect(() => {
     fetch("projects.json")
       .then((res) => res.json())
@@ -84,7 +86,10 @@ const Projects = () => {
               <h2 class="card-title">{project.name}</h2>
 
               <div class="card-actions justify-end">
-                <button onClick={handleButton} class="btn btn-primary">
+                <button
+                  onClick={() => handleButton(project.id)}
+                  class="btn btn-primary"
+                >
                   Click To Know More Details
                 </button>
               </div>

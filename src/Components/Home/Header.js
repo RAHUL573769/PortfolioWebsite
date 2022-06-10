@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import img from "../../Images/ProfilePic.JPG";
 import About from "../About";
+import AboutMe from "../AboutMe";
 import ContactUs from "./ContactUs";
 import HomeName from "./HomeName";
 import Projects from "./Projects";
@@ -10,16 +11,19 @@ const Header = () => {
   const menuItems = (
     <>
       <li>
-        <Link to={<HomeName></HomeName>}>Home</Link>
+        <Link to="/home">Home</Link>
       </li>
       <li>
-        <Link to={<About></About>}>About </Link>
+        <Link to="/aboutme">About </Link>
       </li>
       <li>
         <Link to={<Projects></Projects>}>Projects </Link>
       </li>
       <li>
-        <Link to={<ContactUs></ContactUs>}>Contact Us </Link>
+        <Link to="/contactus">Contact Us </Link>
+      </li>
+      <li>
+        <Link to="/blogs">Blogs </Link>
       </li>
     </>
   );
